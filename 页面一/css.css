@@ -1,0 +1,262 @@
+body {
+  width: 2560px;
+  height: 1476px;
+}
+.navbar {
+    background-color: black; /* 设置背景颜色为黑色 */
+    height: 127pt; /* 设置导航条的高度 */
+    width: 2560pt;
+    display: flex; /* 使用 flex 布局 */
+    align-items: center; /* 垂直居中 */
+    /* padding-left: 20px;  */
+    position: relative;
+    z-index: -1;
+  }
+  
+  /* 设置图标的样式 */
+  .navbar-icon.img {
+    margin-left: 44pt; 
+    margin-top: 36pt;
+    margin-bottom: 41pt;
+  }
+  .LOGO-img {
+    height: 50pt; /* 设置图标的高度 */
+    width: 158pt;
+  }
+  
+  .menu-item {
+    list-style: none; /* 去除列表样式 */
+     margin: 0;
+    padding: 0;
+    display: flex; /* 设置为弹性盒子，使其水平排列 */
+  }
+
+  /* .menu-item li {
+    float: left;
+  } */
+  .Trade-img {
+    margin-left: 1035pt;
+    height: 16pt;
+    width: 54pt;
+    margin-top: 53pt;
+    margin-bottom: 58pt;
+  }
+  .Earn-img {
+    margin-left: 142pt;
+    margin-top: 53pt;
+    margin-bottom: 58pt;
+    height: 16pt;
+    width: 41;
+  }
+  .Community-img {
+    margin-left: 115pt;
+    margin-top: 53pt;
+    margin-bottom: 55pt;
+    height: 16pt;
+    width: 107pt;
+  }
+  .Developers-img {
+    margin-left: 84pt;
+    margin-top: 53pt;
+    margin-bottom: 55pt;
+    height: 19pt;
+    width: 103pt;
+  }
+  .FAQ-img {
+    margin-left: 118pt;
+    margin-top: 53pt;
+    margin-bottom: 57pt;
+    height: 17pt;
+    width: 39pt;
+  }
+  .Github-img {
+    margin-left: 114pt;
+    height: 16pt;
+    width: 62pt;
+    margin-top: 53pt;
+    margin-bottom: 58pt;
+  }
+  
+  .Comingsoon-img {
+    list-style: none; /* 取消列表项的默认样式 */
+    background-image: url('anniu.png'); 
+    background-size: 100% 100%;
+    background-position:center;
+    margin-left: 127pt;
+    height: 20pt;
+    width: 127pt;
+    margin-top: 53pt;
+    margin-bottom: 54pt;
+    background-position: center 28pt; 
+  }
+  /* 中部 */
+  .background{
+    position: relative;
+    z-index: 1;
+  }
+  .图层 {
+    position: absolute;
+    z-index: -1;
+    margin-top: -52pt;
+    height: 1319pt;
+    width: 2545pt;
+    margin-left: 15pt;
+  }
+  .主图{
+    position: relative;
+    z-index: 1;
+    margin-top: -52pt;
+    height: 1356pt;
+    width: 1745pt;
+    margin-left: 815pt;
+  }
+  .layer01 {
+    display: flex;
+    list-style: none;
+  }
+  .crusv3 {
+    position: absolute;
+    z-index: -1;
+    margin-top: -789pt;
+    height: 65pt;
+    width: 308pt;
+    margin-left: 144pt;
+  }
+  .Protocol {
+    position: absolute;
+    z-index: -1;
+    margin-top: -789pt;
+    height: 67pt;
+    width: 336pt;
+    margin-left: 501pt;
+  }
+  .Safest {
+    position: absolute;
+    z-index: -1;
+    margin-top: -627pt;
+    height: 160pt;
+    width: 953pt;
+    margin-left: 142pt;
+  }
+  .layer02 {
+    list-style: none;
+  }
+  .路径 {
+    position: absolute;
+    z-index: -1;
+    margin-top: -315pt;
+    height: 14pt;
+    width: 14pt;
+    margin-left: 149pt;
+  }
+  .Minimum {
+    position: absolute;
+    z-index: -1;
+    margin-top: -320pt;
+    height: 32pt;
+    width: 383pt;
+    margin-left: 187pt;
+  }
+  .路径1 {
+    position: absolute;
+    z-index: -1;
+    margin-top: -233pt;
+    height: 14pt;
+    width: 14pt;
+    margin-left: 149pt;
+  }
+  .Earnings {
+    position: absolute;
+    z-index: -1;
+    margin-top: -237pt;
+    height: 31pt;
+    width: 199pt;
+    margin-left: 187pt;
+  }
+  .路径2 {
+    position: absolute;
+    z-index: -1;
+    margin-top: -150pt;
+    height: 14pt;
+    width: 14pt;
+    margin-left: 149pt;
+  }
+  .Interval {
+    position: absolute;
+    z-index: -1;
+    margin-top: -150pt;
+    height: 32pt;
+    width: 420pt;
+    margin-left: 187pt;
+  }
+  
+  
+/*编辑底部*/
+  .bottom {
+    background-color: black; /* 设置背景颜色为黑色 */
+    height: 458pt; /* 设置导航条的高度 */
+    width: 2560pt;
+    display: flex; /* 使用 flex 布局 */
+    align-items: center; /* 垂直居中 */
+    margin-top: -29pt;
+    position: relative;
+    z-index: 1;
+  }
+  .bottom-item1, .bottom-item2 {
+    list-style: none; /* 去掉列表项默认的圆点样式 */
+    margin: 0; /* 去掉列表项的外边距 */
+    padding: 0; /* 去掉列表项的内边距 */
+    display: block;
+  }
+  .bottom-item1 li, .bottom-item2 li {
+    display: block; /* 将列表项的显示方式设置为块级元素 */
+    margin-bottom: 74pt; /* 列表项之间的间距 */
+  }
+  .m1249 {
+    margin-left: 400pt;
+    height: 72pt;
+    width: 233pt;
+  }
+  .矩形 {
+    margin-left: 342pt;
+    height: 15pt;
+    width: 102pt;
+  }
+  .矩形1 {
+    margin-left: 402pt;
+    height: 15pt;
+    width: 102pt;
+  }
+  .矩形2 {
+    margin-left: 417pt;
+    height: 15pt;
+    width: 102pt;
+  }
+  .Trade {
+    /* margin-right: 1930pt;
+    margin-top: 74pt;
+    margin-bottom: 125pt; */
+    height: 26pt;
+    width: 207pt;
+  }
+  .Total {
+    /* margin-left: 400pt; */
+    /* margin-top: 1480pt;
+    margin-bottom: 225pt; */
+    height: 26pt;
+    width: 287pt;
+  }
+  .User {
+    /* margin-left: 400pt; */
+    /* margin-top: 1480pt;
+    margin-bottom: 225pt; */
+    height: 25pt;
+    width: 67pt;
+  }
+  .Community {
+    /* margin-left: 400pt; */
+    /* margin-top: 1480pt;
+    margin-bottom: 225pt; */
+    height: 33pt;
+    width: 326pt;
+  }
