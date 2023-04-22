@@ -1,0 +1,63 @@
+body {
+    width: 2560px;
+    height: 1412px;
+  }
+.top {
+    margin-left: 190pt;
+    margin-top: 123pt;
+    height: 2pt;
+    width: 2180pt;
+}
+.left {
+    position: absolute;
+    z-index: -1;  
+}
+.KYC {
+    margin-left: 203pt;
+    margin-top: 352pt;
+    height: 178pt;
+    width: 770pt;
+}
+.Trade {
+    margin-left: 205pt;
+    margin-top: 52pt;
+    height: 80pt;
+    width: 701pt;
+}
+.SWAP{
+    margin-left: 336pt;
+    margin-top: 789pt;
+    height: 52pt;
+    width: 192pt;
+}
+.路径 {
+    position: absolute;
+    z-index: -1;
+    margin-left: 205pt;
+    margin-top: 81pt;
+    height: 145pt;
+    width: 513pt;
+}
+
+.LOGO {
+    position: absolute;
+    z-index: -1;
+    margin-left: 204pt;
+    margin-top: 327pt;
+    height: 156pt;
+    width: 869pt;
+}
+.xia {
+    margin-left: 902pt;
+    margin-top: 418pt;
+    height: 51pt;
+    width: 212pt;
+}
+.元素 {
+    position: relative;
+    z-index: 1;
+    margin-left: 1493pt;
+    margin-top: 272pt;
+    height: 860pt;
+    width: 845pt;
+}
