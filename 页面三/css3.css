@@ -1,0 +1,45 @@
+body {
+    background-image: url("图层.png");
+    background-size: cover;
+    width: 2560px;
+    height: 1476px;
+  }
+.swapleft {
+  position: absolute;
+  z-index: -1;
+  margin-top: 221pt;
+  margin-left: 342pt;
+  height: 969pt;
+  width: 1205pt;
+
+}
+.Transactions {
+  margin-top: 344pt;
+  margin-left: 1645pt;
+  height: 157pt;
+  width: 690pt;
+
+}
+.complete {
+  margin-top: 65pt;
+  margin-left: 1718pt;
+  height: 80pt;
+  width: 623pt;
+
+}
+.路径 {
+  position: absolute;
+  z-index: -1;
+  margin-top: 67pt;
+  margin-left: 1830pt;
+  height: 146pt;
+  width: 513pt;
+
+}
+.Coming {
+  margin-top: 117pt;
+  margin-left: 1928pt;
+  height: 58pt;
+  width: 326pt;
+
+}
